@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency('spree_core',  '>= 1.1')
-  s.add_dependency('i18n', '~> 0.5')
+  s.add_dependency('i18n')
   s.add_dependency('rails-i18n')
 
   s.add_development_dependency "rails", ">= 3.0.0"
